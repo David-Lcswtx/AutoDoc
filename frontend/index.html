@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AutoDoc</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+
+        <h1>AutoDoc</h1>
+
+    </header>
+
+    <section class="card">
+
+        <h2>Documento</h2>
+
+        <div class="campo">
+
+            <label>Modelo (.docx)</label>
+
+            <div class="linha">
+
+                <input
+                    type="text"
+                    id="modelo"
+                    readonly>
+
+                <button id="btnModelo">
+
+                    Selecionar
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="campo">
+
+            <label>Destino</label>
+
+            <div class="linha">
+
+                <input
+                    type="text"
+                    id="destino"
+                    readonly>
+
+                <button id="btnDestino">
+
+                    Selecionar
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="card">
+
+        <h2>Dados do Cliente</h2>
+
+        <input placeholder="Nome Completo">
+
+        <input placeholder="Nacionalidade">
+
+        <input placeholder="Estado Civil">
+
+        <input type="date">
+
+        <input placeholder="CPF">
+
+        <div class="linha">
+
+            <input placeholder="RG">
+
+            <label>
+
+                <input type="checkbox">
+
+                RG Novo
+
+            </label>
+
+        </div>
+
+    </section>
+
+    <section class="card">
+
+        <h2>Endereço</h2>
+
+        <input placeholder="CEP">
+
+        <input placeholder="Endereço">
+
+        <input placeholder="Número">
+
+        <input placeholder="Complemento">
+
+        <input placeholder="Bairro">
+
+        <input placeholder="Município">
+
+        <input placeholder="UF">
+
+    </section>
+
+    <section class="card">
+
+        <label class="checkbox">
+
+            <input
+                type="checkbox"
+                id="possuiRepresentante">
+
+            Possui representante legal
+
+        </label>
+
+    </section>
+
+    <section
+        class="card"
+        id="representante">
+
+        <h2>Representante</h2>
+
+        <input placeholder="Nome">
+
+        <input placeholder="Nacionalidade">
+
+        <input placeholder="Estado Civil">
+
+        <input placeholder="CPF">
+
+        <div class="linha">
+
+            <input placeholder="RG">
+
+            <label>
+
+                <input type="checkbox">
+
+                RG Novo
+
+            </label>
+
+        </div>
+
+    </section>
+
+    <section class="acoes">
+
+        <button id="limpar">
+
+            Limpar
+
+        </button>
+
+        <button id="gerar">
+
+            Gerar Documento
+
+        </button>
+
+    </section>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
